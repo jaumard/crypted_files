@@ -1,0 +1,20 @@
+name: crypted_files
+description: Dart package to crypt files with libsodium library
+version: 1.0.0
+homepage: https://github.com/jaumard/crypted_files
+repository: https://github.com/jaumard/crypted_files
+author: jaumard <jimmy.aumard@gmail.com>
+
+environment:
+  sdk: '>=2.1.0 <3.0.0'
+
+dependencies:
+  libsodium:
+    git: https://github.com/santetis/libsodium.dart
+    #path: '../../IdeaProjects/libsodium.dart'
+
+
+
+dev_dependencies:
+  pedantic: ^1.0.0
+  test: ^1.0.0
